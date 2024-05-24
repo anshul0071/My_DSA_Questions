@@ -18,4 +18,4 @@ function validParanthesis(str){
 }
 
 const res = validParanthesis("[()");
-console.log(res)
+console.log(res);

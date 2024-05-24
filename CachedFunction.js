@@ -7,7 +7,6 @@ function cachedFunction(fn) {
     }
     const res = fn(...args);
     cache[key] = res;
-    console.log("object")
     return res;
   };
 }
