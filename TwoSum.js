@@ -1,5 +1,5 @@
 
-// Brute force approach :  time complexity : O(n)
+// Brute force approach :  time complexity : O(n^2)
 
 function twoSum(arr,target){
     for(let i = 0 ; i <arr.length ;i++){
@@ -16,7 +16,7 @@ console.log(result)
 
 // *****************************************************************************************************************************************************************
 
-// Optimal approach : time complexity : O(n^2)
+// Optimal approach : time complexity : O(n)
 
 function twoSumOptimal(arr,target){
     let obj = {};

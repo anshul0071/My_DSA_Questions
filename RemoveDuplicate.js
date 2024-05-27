@@ -5,14 +5,14 @@ function removeDuplicates(arr) {
     let ele = arr[i];
     if (obj[ele]) {
       if (obj[ele] === 1) {
-        res.push(ele);
         obj[ele]++;
       }
     } else {
       obj[ele] = 1;
+      res.push(ele);
     }
   }
-  return [res, arr];
+  return [res];
 }
 
 const output = removeDuplicates([
@@ -20,4 +20,3 @@ const output = removeDuplicates([
 ]);
 console.log(output);
 
-// TO_DO
